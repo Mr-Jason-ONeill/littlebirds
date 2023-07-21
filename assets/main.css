@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+li {
+    padding: 10px;
+}
