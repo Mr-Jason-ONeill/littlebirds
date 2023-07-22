@@ -1,12 +1,21 @@
 <header>
-  <div class="logo">
-    <h1>{{ shop.name }}</h1>
-    <div>Logo</div>
+  <div class="logo-grid">
+    <div class="grid-item">
+      <h1>{{ shop.name }}</h1>
+      </div>
+    <div class="grid-item">
+      <div>Live. Love. Laughter.</div>
+    </div>
+    <div class="grid-item">
+      <button>Shop Now</button>
+    </div>
+    </div>
   </div>
   <nav>
-    <ul>
+    <ul class="navbar">
       {% for link in linklists.main-menu.links -%}
-        {{ link.title | link_to: link.url }}
+        <li class="nav-item">{{ link.title | link_to: link.url }}
+        </li>
       {%- endfor %}
     </ul>
   </nav>

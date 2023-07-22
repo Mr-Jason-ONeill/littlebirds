@@ -1,0 +1,25 @@
+header {
+    position: sticky;
+    width: 100%;
+}
+
+.logo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    justify-content: space-between;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.navbar {
+    width: 100%;
+    list-style: none;
+    display: inline-flex;
+    text-decoration: none;
+}
+
+.nav-item {
+    padding: 10px;
+}

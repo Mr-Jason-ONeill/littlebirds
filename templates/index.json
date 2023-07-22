@@ -1,11 +1,11 @@
 { 
     "sections": {
-        "main": {
+        "hero": {
             "type":"hero",
             "settings":{}
             }
         },
         "order": [
-            "main"
+            "hero"
             ]
 }

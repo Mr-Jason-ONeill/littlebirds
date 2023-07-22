@@ -1,7 +1,17 @@
 <!-- main stuff -->
+{% liquid
+  assign background_image = section.settings.background_image
+%}
+
+{% if background_image %}
+  {{ background_image | image_url: width: 2500 | image_tag: preload: true, class: "hero__background-image" }}
+{% endif %}
+
 <main>
-  <div>
-    Main Section
+  <div class="main-container">
+    <div class="hero-image">
+      Main Section
+    </div>
   </div>
 </main>
 
