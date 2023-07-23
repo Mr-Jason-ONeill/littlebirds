@@ -1,25 +1,26 @@
 header {
-    position: sticky;
-    width: 100%;
+    position: fixed;
+    width: 100vw;
+    background-color: aliceblue;
+    z-index: 2;
 }
 
 .logo-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
     justify-content: space-between;
+    margin-top: 20px;
 }
 
-.grid-item {
-    text-align: center;
-}
 
 .navbar {
     width: 100%;
     list-style: none;
     display: inline-flex;
-    text-decoration: none;
+    justify-content: center;
 }
 
 .nav-item {
     padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }

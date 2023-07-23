@@ -1,32 +1,30 @@
 <!-- main stuff -->
 {% liquid
-  assign background_image = section.settings.background_image
+  assign hero_image = section.settings.hero_image
 %}
 
-{% if background_image %}
-  {{ background_image | image_url: width: 2500 | image_tag: preload: true, class: "hero__background-image" }}
-{% endif %}
 
-<main>
-  <div class="main-container">
-    <div class="hero-image">
-      Main Section
-    </div>
+<div class="hero-container">
+  <div class="hero-image">
+    {% if hero_image %}
+      {{ hero_image | image_url: width: 1350 | image_tag: preload: true }}
+    {% endif %}
   </div>
-</main>
+  <div class="hero-grid">
+    <div class="grid-item">Omega &#937;</div>
+    <div class="grid-item">Psi &#936;</div>
+    <div class="grid-item">Sigma &#931;</div>
+  </div>
+</div>
 
 {% schema %}
   {
     "name": "hero",
     "settings": [
       {
-        "type": "text",
-        "label": "Header",
-        "id": "header"
-      }, {
         "type": "image_picker",
-        "id": "background_image",
-        "label": "Background Image"
+        "id": "hero_image",
+        "label": "Hero Image"
       }
     ]
   }

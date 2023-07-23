@@ -1,11 +1,21 @@
-{ 
-    "sections": {
-        "hero": {
-            "type":"hero",
-            "settings":{}
-            }
-        },
-        "order": [
-            "hero"
-            ]
+{
+  "sections": {
+    "hero-image": {
+      "type": "hero",
+      "settings": {
+        "hero_image": "shopify:\/\/shop_images\/baby-girl-feet.jpg"
+      }
+    },
+    "card": {
+      "type": "featured-cards",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/father-carrying-daughter.jpg",
+        "text": ""
+      }
+    }
+  },
+  "order": [
+    "hero-image",
+    "card"
+  ]
 }

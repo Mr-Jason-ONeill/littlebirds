@@ -1,11 +1,31 @@
+<div class="card-container">
+  {% for block in section.blocks %}
+    <div class="card-section">
+      <div class="hero-image">
+        {% if hero_image %}
+          {{ hero_image | image_url: width: 1350 | image_tag: preload: true }}
+        {% endif %}
+      </div>
+      <div class="text-item">
+        {{ block.settings.text }}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
 {% schema %}
   {
-    "name": "featured-cards",
+    "name": "image",
     "settings": [
       {
-        "type": "product",
-        "id": "cards",
-        "label": "Cards"
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }, {
+        "type": "text",
+        "id": "text",
+        "label": "Description",
+        "placeholder": "Write something here"
       }
     ]
   }
