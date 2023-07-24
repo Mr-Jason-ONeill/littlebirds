@@ -1,0 +1,25 @@
+.featured-container {
+    background-color: plum;
+    height: 100vh;
+    max-width: 100vw;
+    position: relative;
+}
+
+.featured-grid {
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.featured-section-img {
+    display: flex;
+    justify-content: center;
+}
+
+.featured-section-text {
+    display: inherit;
+    text-align: center;
+}

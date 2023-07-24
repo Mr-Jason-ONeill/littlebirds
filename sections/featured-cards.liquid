@@ -1,16 +1,17 @@
-<div class="card-container">
-  {% for block in section.blocks %}
-    <div class="card-section">
-      <div class="hero-image">
-        {% if hero_image %}
-          {{ hero_image | image_url: width: 1350 | image_tag: preload: true }}
-        {% endif %}
-      </div>
-      <div class="text-item">
-        {{ block.settings.text }}
-      </div>
+<div class="featured-container">
+  <div class="featured-grid">
+    <div class="featured-section-img">Omega &#937;</div>
+    <div class="featured-section-text">
+      <h2>Psi &#936;</h2>
+      <h3>Writing</h3>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+      <button>Shop Now</button>
     </div>
-  {% endfor %}
+  </div>
 </div>
 
 {% schema %}
@@ -22,10 +23,9 @@
         "id": "image",
         "label": "Image"
       }, {
-        "type": "text",
+        "type": "richtext",
         "id": "text",
-        "label": "Description",
-        "placeholder": "Write something here"
+        "label": "Description"
       }
     ]
   }

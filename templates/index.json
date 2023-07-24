@@ -6,16 +6,26 @@
         "hero_image": "shopify:\/\/shop_images\/baby-girl-feet.jpg"
       }
     },
-    "card": {
+    "featured": {
       "type": "featured-cards",
       "settings": {
-        "image": "shopify:\/\/shop_images\/father-carrying-daughter.jpg",
-        "text": ""
+      }
+    },
+    "featured2": {
+      "type": "featured-cards",
+      "settings": {
+      }
+    },
+    "featured3": {
+      "type": "featured-cards",
+      "settings": {
       }
     }
   },
   "order": [
     "hero-image",
-    "card"
+    "featured",
+    "featured2",
+    "featured3"
   ]
 }
