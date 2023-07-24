@@ -50,6 +50,11 @@
       "type": "banner",
       "settings": {
       }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -62,6 +67,7 @@
     "card3",
     "sponsors",
     "maxCard",
-    "banner"
+    "banner",
+    "testimonials"
   ]
 }
