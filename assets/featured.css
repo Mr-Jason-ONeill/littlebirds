@@ -3,15 +3,16 @@
     height: 100vh;
     max-width: 100vw;
     position: relative;
+    margin: 10%;
 }
 
 .featured-grid {
     display: grid;
     width: 100vw;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 3fr;
     position: absolute;
     justify-content: space-between;
+    margin-top: 5%;
 }
 
 .featured-section-img {
@@ -20,6 +21,8 @@
 }
 
 .featured-section-text {
-    display: inherit;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    align-items: baseline;
 }

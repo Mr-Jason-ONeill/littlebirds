@@ -20,12 +20,30 @@
       "type": "featured-cards",
       "settings": {
       }
+    },
+    "card": {
+      "type": "cards",
+      "settings": {
+      }
+    },
+    "card2": {
+      "type": "cards",
+      "settings": {
+      }
+    },
+    "card3": {
+      "type": "cards",
+      "settings": {
+      }
     }
   },
   "order": [
     "hero-image",
     "featured",
     "featured2",
-    "featured3"
+    "featured3",
+    "card",
+    "card2",
+    "card3"
   ]
 }
