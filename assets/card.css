@@ -14,5 +14,28 @@
     width: 50%;
     margin-left: 5%;
     margin-top: 5%;
-
 } 
+
+.max-width-container {
+    background-color:darksalmon;
+    height: 100vh;
+    max-width: 100vw;
+    position: relative;
+}
+
+.max-width-grid {
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr;
+}
+
+.max-width-img {
+    display: flex;
+    justify-content: center;
+}
+
+.max-width-text {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
