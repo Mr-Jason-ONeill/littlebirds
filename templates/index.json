@@ -9,19 +9,27 @@
     "featured": {
       "type": "featured-cards",
       "settings": {
+        "feature": "shopify:\/\/shop_images\/grandparent.jpg",
         "text": ""
       }
     },
     "featured2": {
       "type": "featured-cards",
       "settings": {
+        "feature": "shopify:\/\/shop_images\/apron.jpg",
         "text": ""
       }
     },
     "featured3": {
       "type": "featured-cards",
       "settings": {
+        "feature": "shopify:\/\/shop_images\/grandparent2.jpg",
         "text": ""
+      }
+    },
+    "sponsors": {
+      "type": "sponsors",
+      "settings": {
       }
     },
     "card": {
@@ -40,11 +48,6 @@
       "type": "cards",
       "settings": {
         "text": ""
-      }
-    },
-    "sponsors": {
-      "type": "sponsors",
-      "settings": {
       }
     },
     "maxCard": {
@@ -70,10 +73,10 @@
     "featured",
     "featured2",
     "featured3",
+    "sponsors",
     "card",
     "card2",
     "card3",
-    "sponsors",
     "maxCard",
     "banner",
     "testimonials"
