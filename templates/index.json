@@ -3,37 +3,46 @@
     "hero-image": {
       "type": "hero",
       "settings": {
-        "hero_image": "shopify:\/\/shop_images\/baby-girl-feet.jpg"
+        "hero_image": "shopify:\/\/shop_images\/hero.jpg"
       }
     },
     "featured": {
       "type": "featured-cards",
       "settings": {
+        "feature": "shopify:\/\/shop_images\/grandparent.jpg",
+        "text": ""
       }
     },
     "featured2": {
       "type": "featured-cards",
       "settings": {
+        "feature": "shopify:\/\/shop_images\/apron.jpg",
+        "text": ""
       }
     },
     "featured3": {
       "type": "featured-cards",
       "settings": {
+        "feature": "shopify:\/\/shop_images\/grandparent2.jpg",
+        "text": ""
       }
     },
     "card": {
       "type": "cards",
       "settings": {
+        "text": ""
       }
     },
     "card2": {
       "type": "cards",
       "settings": {
+        "text": ""
       }
     },
     "card3": {
       "type": "cards",
       "settings": {
+        "text": ""
       }
     },
     "sponsors": {
@@ -44,6 +53,7 @@
     "maxCard": {
       "type": "max-width-cards",
       "settings": {
+        "text": ""
       }
     },
     "banner": {
@@ -54,6 +64,7 @@
     "testimonials": {
       "type": "testimonials",
       "settings": {
+        "testimonials": ""
       }
     }
   },

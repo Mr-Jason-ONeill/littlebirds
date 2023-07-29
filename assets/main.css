@@ -6,3 +6,23 @@
 .grid-item {
     text-align: center;
 }
+
+button {
+    border-radius: 8px;
+    background: #00B4CD;
+    width: 163px;
+    height: 42px;
+    flex-shrink: 0;
+    align-items: center;
+    color:#FFF;
+    text-align: center;
+    font-family: Atten Round New;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
