@@ -25,6 +25,7 @@
       "settings": {
         "feature": "shopify:\/\/shop_images\/grandparent2.jpg",
         "text": ""
+<<<<<<< HEAD
       }
     },
     "card": {
@@ -43,11 +44,31 @@
       "type": "cards",
       "settings": {
         "text": ""
+=======
+>>>>>>> fe271f78ade38067915c8e9838ba44af42a5968c
       }
     },
     "sponsors": {
       "type": "sponsors",
       "settings": {
+      }
+    },
+    "card": {
+      "type": "cards",
+      "settings": {
+        "text": ""
+      }
+    },
+    "card2": {
+      "type": "cards",
+      "settings": {
+        "text": ""
+      }
+    },
+    "card3": {
+      "type": "cards",
+      "settings": {
+        "text": ""
       }
     },
     "maxCard": {
@@ -73,10 +94,10 @@
     "featured",
     "featured2",
     "featured3",
+    "sponsors",
     "card",
     "card2",
     "card3",
-    "sponsors",
     "maxCard",
     "banner",
     "testimonials"
