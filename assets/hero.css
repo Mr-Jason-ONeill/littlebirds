@@ -11,6 +11,8 @@
     z-index: -2;
     background-size: cover;
     background-position: center;
+    opacity: 0.8799999952316284;
+    background: radial-gradient(256.64% 53.44% at 50.00% 50.00%, #FFF 6.76%, rgba(255, 255, 255, 0.00) 100%);
 }
 
 .hero-container > .hero-grid {

@@ -10,21 +10,24 @@
       "type": "featured-cards",
       "settings": {
         "feature": "shopify:\/\/shop_images\/grandparent.jpg",
-        "text": ""
+        "headerText": "<p>Read Together<\/p>",
+        "text": "<p>Jump-start the conversation with the charming \"What If You Were A Chef At The Zoo?\" storybook.<\/p>"
       }
     },
     "featured2": {
       "type": "featured-cards",
       "settings": {
         "feature": "shopify:\/\/shop_images\/apron.jpg",
-        "text": ""
+        "headerText": "<p>Craft Keepsakes<\/p>",
+        "text": "<p>Capture the moment with a personalized potholder and apron.<\/p>"
       }
     },
     "featured3": {
       "type": "featured-cards",
       "settings": {
         "feature": "shopify:\/\/shop_images\/cooking.jpg",
-        "text": ""
+        "headerText": "<p>Share the Stories<\/p>",
+        "text": "<p>Record favorite family recipes and the stories behind them in the one-of-a-kind Activity Recipe Journal.<\/p>"
       }
     },
     "card": {
@@ -57,7 +60,7 @@
       "type": "max-width-cards",
       "settings": {
         "maxWidthCards": "shopify:\/\/shop_images\/grandparent2.jpg",
-        "text": ""
+        "header": "<p>Little Bridges provides the tools…<br\/>you provide the love!<\/p>"
       }
     },
     "banner": {
@@ -69,7 +72,12 @@
     "testimonials": {
       "type": "testimonials",
       "settings": {
-        "testimonials": ""
+        "testimonial1": "<p>“This is Indie’s go-to book with her Grandma Zan. She loves Grandma's \"secret sauce\" recipe at the end.”<\/p>",
+        "testimonial2": "<p>“Jack was so proud of his handprint potholder that he wanted to make another one for me.”<br\/><\/p>",
+        "testimonial3": "<p>“It was really fun creating the silliest recipe card together. I was really impressed with my granddaughter’s creativity!”<br\/><\/p>",
+        "author1": "Lauren O. mother of Indiana and Logan",
+        "author2": "Tiffany, mother of two",
+        "author3": "Nona Mullen, grandmother of Stella and Jack"
       }
     }
   },

@@ -2,12 +2,12 @@
   <div class="max-width-grid">
     <div class="max-width-img"><img src="{{ section.settings.maxWidthCards | image_url: width: 500 }}" alt="Grandparent"></div>
     <div class="max-width-text">
-      <div class="heart"><img src="assets\heart.png" alt="Small heart"></div>
-      <h3>Writing</h3>
+      <div class="heart"><img src="assets\hearts.png" alt="Small heart"></div>
+      <h3 class="card-heading">{{ section.settings.header }}</h3>
       <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
+        <li class="bulletpoint"><img src="assets\heart.png">Develop your grandchild’s literacy and social-emotional skills</li>
+        <li class="bulletpoint"><img src="assets\heart.png"> Encourage the lost art of conversation</li>
+        <li class="bulletpoint"><img src="assets\heart.png"> Strengthen intergenerational connections</li>
       </ul>
       <button>Shop Now</button>
     </div>
@@ -26,8 +26,8 @@
         "label": "Image for Max Width Card"
       }, {
         "type": "richtext",
-        "id": "text",
-        "label": "Description for Max Width Card"
+        "id": "header",
+        "label": "Header for Max Width Card"
       }
     ]
   }

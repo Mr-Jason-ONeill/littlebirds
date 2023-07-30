@@ -1,22 +1,27 @@
 <footer>
     <div class="footer-grid">
-      <div class="grid-item">
-        <h1>{{ shop.name }}</h1>
+      <div class="form-item">
+        <h2 class="subheading">Join Our Mailing List!</h2>
         </div>
-      <div class="grid-item">
-        <div>Love. Laughter. Legacy.</div>
+      <div class="form-item">
+        <p class="info">We’ll send you updates on new kits, special offers, and more!</p>
       </div>
-      <div class="grid-item">
+      <div class="form-item">
         <button>Shop Now</button>
       </div>
       </div>
     </div>
-    <nav>
+    <div class="footer-bottom">
+    <div>
       <ul class="footer-links">
         {% for link in linklists.main-menu.links -%}
           <li class="footer-item">{{ link.title | link_to: link.url }}
           </li>
         {%- endfor %}
+        <li class="socials">©2023 Little Birds Practice</li>
+        <li class="socials"><img src="assets\fb.png" alt="Socials"></li>
+        <li class="socials"><img src="assets\insta.png" alt="Socials"></li>
       </ul>
-    </nav>
+    </div>
+    </div>
 </footer>

@@ -3,22 +3,22 @@
     <div class="test-image"></div>
     <div class="test-quotes"><img src="assets\quotes.png" alt="Quotes"></div>
     <div class="test-rating"><img src="assets\stars.png" alt="*****"></div>
-    <div class="test-comment">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, dicta asperiores. Perferendis in quia.</div>
-    <div class="test-author">Jason O'Neill</div>
+    <div class="test-comment">{{ section.settings.testimonial1 }}</div>
+    <div class="test-author">{{ section.settings.author1 }}</div>
   </div>
   <div class="test-wrapper">
     <div class="test-image"></div>
     <div class="test-quotes"><img src="assets\quotes.png" alt="Quotes"></div>
     <div class="test-rating"><img src="assets\stars.png" alt="*****"></div>
-    <div class="test-comment">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, dicta asperiores. Perferendis in quia.</div>
-    <div class="test-author">Jamie Pask</div>
+    <div class="test-comment">{{ section.settings.testimonial2 }}</div>
+    <div class="test-author">{{ section.settings.author2 }}</div>
   </div>
   <div class="test-wrapper">
     <div class="test-image"></div>
     <div class="test-quotes"><img src="assets\quotes.png" alt="Quotes"></div>
     <div class="test-rating"><img src="assets\stars.png" alt="*****"></div>
-    <div class="test-comment">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, dicta asperiores. Perferendis in quia.</div>
-    <div class="test-author">Stephanie Roberts</div>
+    <div class="test-comment">{{ section.settings.testimonial3 }}</div>
+    <div class="test-author">{{ section.settings.author3 }}</div>
   </div>
 
 
@@ -30,8 +30,28 @@
     "settings": [
       {
         "type": "richtext",
-        "id": "testimonials",
-        "label": "Testimonials"
+        "id": "testimonial1",
+        "label": "Testimonial 1"
+      }, {
+        "type": "richtext",
+        "id": "testimonial2",
+        "label": "Testimonial 2"
+      }, {
+        "type": "richtext",
+        "id": "testimonial3",
+        "label": "Testimonial 3"
+      }, {
+        "type": "text",
+        "id": "author1",
+        "label": "Author for Testimonial 1"
+      }, {
+        "type": "text",
+        "id": "author2",
+        "label": "Author for Testimonial 2"
+      }, {
+        "type": "text",
+        "id": "author3",
+        "label": "Author for Testimonial 3"
       }
     ]
   }
