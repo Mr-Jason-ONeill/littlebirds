@@ -23,29 +23,29 @@
     "featured3": {
       "type": "featured-cards",
       "settings": {
-        "feature": "shopify:\/\/shop_images\/grandparent2.jpg",
+        "feature": "shopify:\/\/shop_images\/cooking.jpg",
         "text": ""
-<<<<<<< HEAD
       }
     },
     "card": {
       "type": "cards",
+      "disabled": true,
       "settings": {
         "text": ""
       }
     },
     "card2": {
       "type": "cards",
+      "disabled": true,
       "settings": {
         "text": ""
       }
     },
     "card3": {
       "type": "cards",
+      "disabled": true,
       "settings": {
         "text": ""
-=======
->>>>>>> fe271f78ade38067915c8e9838ba44af42a5968c
       }
     },
     "sponsors": {
@@ -53,32 +53,16 @@
       "settings": {
       }
     },
-    "card": {
-      "type": "cards",
-      "settings": {
-        "text": ""
-      }
-    },
-    "card2": {
-      "type": "cards",
-      "settings": {
-        "text": ""
-      }
-    },
-    "card3": {
-      "type": "cards",
-      "settings": {
-        "text": ""
-      }
-    },
     "maxCard": {
       "type": "max-width-cards",
       "settings": {
+        "maxWidthCards": "shopify:\/\/shop_images\/grandparent2.jpg",
         "text": ""
       }
     },
     "banner": {
       "type": "banner",
+      "disabled": true,
       "settings": {
       }
     },
@@ -94,10 +78,10 @@
     "featured",
     "featured2",
     "featured3",
-    "sponsors",
     "card",
     "card2",
     "card3",
+    "sponsors",
     "maxCard",
     "banner",
     "testimonials"
