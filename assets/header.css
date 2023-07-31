@@ -14,6 +14,9 @@ header {
     margin-right: 95px;
 }
 
+.grid-item-logo {
+    color: #262262;
+}
 
 .navbar {
     width: 100%;
@@ -23,8 +26,12 @@ header {
     justify-content: space-evenly;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .nav-item {
-    color: #FFF;
     text-align: center;
     font-family: Lato;
     font-size: 20px;

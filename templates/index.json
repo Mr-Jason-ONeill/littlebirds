@@ -6,6 +6,13 @@
         "hero_image": "shopify:\/\/shop_images\/hero.jpg"
       }
     },
+    "card": {
+      "type": "cards",
+      "settings": {
+        "card": "shopify:\/\/shop_images\/content.png",
+        "text": ""
+      }
+    },
     "featured": {
       "type": "featured-cards",
       "settings": {
@@ -28,13 +35,6 @@
         "feature": "shopify:\/\/shop_images\/cooking.jpg",
         "headerText": "<p>Share the Stories<\/p>",
         "text": "<p>Record favorite family recipes and the stories behind them in the one-of-a-kind Activity Recipe Journal.<\/p>"
-      }
-    },
-    "card": {
-      "type": "cards",
-      "disabled": true,
-      "settings": {
-        "text": ""
       }
     },
     "card2": {
@@ -83,10 +83,10 @@
   },
   "order": [
     "hero-image",
+    "card",
     "featured",
     "featured2",
     "featured3",
-    "card",
     "card2",
     "card3",
     "sponsors",

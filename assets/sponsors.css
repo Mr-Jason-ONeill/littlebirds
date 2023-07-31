@@ -10,6 +10,7 @@
 
 .sponsor {
     background-color: #00B4CD;
+    margin-left: 60px;
     border-radius: 50%;
     width: 120px;
     height: 120px;
@@ -22,4 +23,15 @@
     max-width: 100%;
     max-height: 100%;
     border-radius: 50%;
+}
+
+.prop-message {
+    color: #FFF;
+    text-align: center;
+    font-family: Rockwell;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 9px;
 }

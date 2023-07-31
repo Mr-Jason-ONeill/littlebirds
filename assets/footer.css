@@ -31,7 +31,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 65px;
+    margin-top: 45px;
 }
 
 .subheading {
@@ -52,4 +52,10 @@ footer {
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.9px;
+}
+
+.subscription-input {
+    border-radius: 8px;
+    height: 42px;
+    border: none;
 }

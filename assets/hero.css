@@ -1,27 +1,65 @@
 .hero-container {
-    height: 100vh;
-    max-width: 100vw;
-    position: relative;
-    overflow: hidden;
-    padding-bottom: 1043px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top: 120px;
 }
 
-.hero-container > .hero-image {
-    position: absolute;
-    z-index: -2;
-    background-size: cover;
-    background-position: center;
-    opacity: 0.8799999952316284;
-    background: radial-gradient(256.64% 53.44% at 50.00% 50.00%, #FFF 6.76%, rgba(255, 255, 255, 0.00) 100%);
+.hero-info {
+  text-align: center;
 }
 
-.hero-container > .hero-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    position: relative;
-    justify-content: space-between;
-    top: 33%;
-    z-index: 1;
+.grid-item-title,
+.grid-item-subtitle {
+  text-align: center;
+  font-family: Rockwell;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 75px;
+  color: #015A6B;
+  display: block;
+}
+
+.grid-item-subtitle {
+  font-size: 65px;
+  padding-bottom: 65px;
+}
+
+.grid-item-text {
+  color: #262262;
+  text-align: center;
+  font-family: Lato;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 30px;
+  letter-spacing: 1.25px;
+  padding-bottom: 27px;
+  padding-top: 27px;
 }
 
 
+.and {
+    color: #00B4CD;
+    font-family: Rockwell;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px;
+    display: inline-block;
+}
+
+.hero-image {
+  flex: 1;
+  z-index: -1;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8799999952316284;
+  background: radial-gradient(256.64% 53.44% at 50.00% 50.00%, #FFF 6.76%, rgba(255, 255, 255, 0.00) 100%);
+  position: absolute;
+}
