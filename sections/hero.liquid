@@ -3,6 +3,9 @@
 %}
 
 <div class="hero-container">
+  <div class="hamburger">
+    <img src="assets\menu.png" alt="Menu">
+  </div>
   <div class="hero-image">
     {% if hero_image %}
       {{ hero_image | image_url: width: 1350 | image_tag: preload: true }}

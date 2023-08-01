@@ -1,8 +1,31 @@
+@media screen and (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+  }
+  
+  .hero-info {
+    order: 1;
+    text-align: center;
+    background: linear-gradient(180deg, #F1F1F2 3.13%, rgba(241, 241, 242, 0.62) 15.63%, rgba(241, 241, 242, 0.00) 29.69%);
+  }
+
+  .hero-image img {
+    order: 2;
+    z-index: 2;
+  }
+
+}
+
+/* -------------------------------------------- */
 .hero-container {
   display: flex;
   flex-direction: column;
   position: relative;
   padding-top: 120px;
+}
+
+.hamburger {
+  display: none;
 }
 
 .hero-info {

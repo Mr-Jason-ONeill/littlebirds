@@ -1,7 +1,11 @@
+
+
+/* -------------------------------------- */
 .featured-container {
     height: 444px;
     margin-left: 385px;
     margin-right: 327px;
+    overflow: none;
 }
 
 .featured-section-img {
@@ -41,10 +45,4 @@
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 1px;
-}
-
-.btn {
-    cursor: pointer;
-    align-items: center;
-    justify-content: space-between;
 }

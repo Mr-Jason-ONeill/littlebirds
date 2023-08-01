@@ -1,8 +1,50 @@
+@media screen and (max-width: 768px) {
+    header {
+    position: static;
+    width: 100%;
+    background-color: aliceblue;
+    }
+
+    .logo-grid {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cart-btn {
+        display: grid;
+        grid-column: 3;
+        justify-self: end;
+    }
+
+    .slogan,
+    .btn,
+    .main-btn,
+    nav {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        grid-column: 1;
+        justify-self: start;
+      }
+    
+      .grid-item-logo {
+        grid-column: 2;
+        justify-content: center;
+      }
+}
+
+/* -------------------------------------------------- */
 header {
     position: fixed;
-    width: 100vw;
+    width: 100%;
     background-color: aliceblue;
     z-index: 2;
+}
+
+.menu {
+    display: none;
 }
 
 .logo-grid {
@@ -39,6 +81,13 @@ a {
     font-weight: 700;
     line-height: 28px;
     letter-spacing: 1px;
+}
+
+.btn,
+.cart-btn {
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .main-btn {
