@@ -1,4 +1,11 @@
 @media screen and (max-width: 768px) {
+  .card-container,
+  .max-width-container {
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 }

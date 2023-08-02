@@ -1,4 +1,13 @@
+@media screen and (max-width: 768px) {
+    .featured-container {
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
 
+  
+  }
 
 /* -------------------------------------- */
 .featured-container {
