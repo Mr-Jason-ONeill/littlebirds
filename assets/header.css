@@ -1,106 +1,84 @@
 @media screen and (max-width: 768px) {
-    header {
+    #header {
     position: static;
     width: 100%;
     background-color: aliceblue;
     }
 
-    .logo-grid {
+    .logo-container {
         display: flex;
         flex-direction: row;
     }
 
-    .cart-btn {
-        display: grid;
-        grid-column: 3;
-        justify-self: end;
-    }
 
-    .slogan,
-    .btn,
     .main-btn,
     nav {
         display: none;
     }
-
-    .menu {
-        display: block;
-        grid-column: 1;
-        justify-self: start;
-      }
     
-      .grid-item-logo {
+      .logo-container {
         grid-column: 2;
         justify-content: center;
       }
 }
 
 /* -------------------------------------------------- */
-header {
+#header {
     position: fixed;
     width: 100%;
     background-color: aliceblue;
     z-index: 2;
 }
 
-.menu {
-    display: none;
-}
-
-.logo-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
+.logo-container {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 95px;
-    margin-right: 95px;
+    margin: 24px 95px;
 }
 
-.grid-item-logo {
-    color: #262262;
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan {
+    display: flex;
+    padding-left: 5rem;
+}
+
+.button-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
 }
 
 .navbar {
-    width: 100%;
     background-color: #262262;
     list-style: none;
-    display: inline-flex;
-    justify-content: space-evenly;
-}
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .nav-item {
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    padding: 1rem;
+  }
+  
 
 a {
     text-decoration: none;
     color: #fff;
 }
 
-.nav-item {
-    text-align: center;
-    font-family: Lato;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 28px;
-    letter-spacing: 1px;
-}
-
-.btn,
-.cart-btn {
-    cursor: pointer;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .main-btn {
     align-items: center;
-}
-
-.slogan {
-    color: #262262;
-    text-align: center;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 46px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+    margin-left: 60px;
 }
