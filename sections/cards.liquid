@@ -1,10 +1,18 @@
 <div class="card-container">
-  <div class="card-grid">
+  <div class="card-wrapper">
     <div class="card-img">
       <img src="{{ section.settings.card | image_url: width: 500 }}" alt="image">
     </div>
     <div class="card-text">
-      <div class="heart"><img src="assets\hearts.png" alt="Small heart"></div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="74"
+        height="41"
+        viewBox="0 0 74 41"
+        fill="none">
+        <path d="M17.3646 34.9565C17.3646 34.9565 -2.31836 11.194 10.4617 4.13686C21.3245 -1.86771 25.105 10.591 25.105 10.591C25.105 10.591 35.3845 2.59175 40.7629 13.7628C47.1015 26.8935 17.3646 34.9565 17.3646 34.9565Z" fill="#CE202F" />
+        <path d="M64.2288 28.0577C64.2288 28.0577 49.1229 22.1219 53.2127 15.6225C56.6874 10.0952 61.5964 14.8704 61.5964 14.8704C61.5964 14.8704 64.2952 8.57302 69.6126 12.3489C75.8704 16.7828 64.2288 28.0577 64.2288 28.0577Z" fill="#FF616E" />
+      </svg>
       <h3 class="card-heading">Introducing</h3>
       <div class="card-logo">Grandma<p class="and-small">&</p>Me: in the kitchen</div>
       <p>{{ section.settings.text }}An activity kit for Grandma and her 4-7-year-old grandchild</p>

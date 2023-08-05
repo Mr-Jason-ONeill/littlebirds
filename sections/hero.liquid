@@ -3,21 +3,18 @@
 %}
 
 <div class="hero-container">
-  <div class="hamburger">
-    <img src="assets\menu.png" alt="Menu">
-  </div>
   <div class="hero-image">
     {% if hero_image %}
       {{ hero_image | image_url: width: 1350 | image_tag: preload: true }}
     {% endif %}
   </div>
   <div class="hero-info">
-    <div class="grid-item-title">Grandma<p class="and">&</p>Me</div>
-    <div class="grid-item-subtitle">activity kit</div>
-    <div class="grid-item-text">Connect with your grandchild in a fun and meaningful way.
+    <div class="hero-title">Grandma<p class="and">&</p>Me</div>
+    <div class="hero-subtitle">activity kit</div>
+    <div class="hero-text">Connect with your grandchild in a fun and meaningful way.
     </div>
     <button>Get A Kit</button>
-    <div class="grid-item-text">No subscription required!</div>
+    <div class="hero-text">No subscription required!</div>
   </div>
 </div>
 

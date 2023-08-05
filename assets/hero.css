@@ -26,18 +26,21 @@
   flex-direction: column;
   position: relative;
   padding-top: 120px;
-}
-
-.hamburger {
-  display: none;
+  height: 48.625rem;
 }
 
 .hero-info {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 29.5625rem;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.88;
+  background: radial-gradient(256.64% 53.44% at 50.00% 50.00%, #FFF 6.76%, rgba(255, 255, 255, 0.00) 100%);
 }
 
-.grid-item-title,
-.grid-item-subtitle {
+.hero-title,
+.hero-subtitle {
   text-align: center;
   font-family: Rockwell;
   font-size: 80px;
@@ -48,12 +51,12 @@
   display: block;
 }
 
-.grid-item-subtitle {
+.hero-subtitle {
   font-size: 65px;
   padding-bottom: 65px;
 }
 
-.grid-item-text {
+.hero-text {
   color: #262262;
   text-align: center;
   font-family: Lato;

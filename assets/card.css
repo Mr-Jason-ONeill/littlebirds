@@ -12,12 +12,13 @@
 
 /* ------------------------------------------ */
 .card-container {
-    max-width: 100%;
-    margin: 10%;
-    overflow: none;
+  width: 80.375rem;
+  height: 30.36613rem;
+  flex-shrink: 0;
+  padding-top: 2.69rem;
 }
 
-.card-grid {
+.card-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
