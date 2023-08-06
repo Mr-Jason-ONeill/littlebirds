@@ -14,13 +14,17 @@
 .card-container {
   width: 80.375rem;
   height: 30.36613rem;
-  flex-shrink: 0;
-  padding-top: 2.69rem;
+  padding-top: 8.94rem;
+  padding-bottom: 8.94rem;
+ /*  position: absolute; */
 }
 
 .card-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* position: relative; */
 }
 
 .card-logo {
@@ -60,7 +64,7 @@
 } 
 
 .max-width-container {
-    height: 100vh;
+    height: 100%;
     max-width: 100%;
     position: relative;
   }

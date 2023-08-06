@@ -1,11 +1,13 @@
 <div class="featured-container">
-  <div class="featured-section-img">
-    <img src="{{ section.settings.feature | image_url: width: 500 }}" alt="Grandparent"></div>
-  <div class="featured-section">
-    <div class="heart"><img src="assets\heart.png" alt="Small heart"></div>
-    <h3 class="featured-heading">{{ section.settings.headerText }}</h3>
-    <p class="featured-text">{{ section.settings.text }}</p>
-    <button>Shop Now</button>
+  <div class="featured-section-wrapper">
+    <div class="featured-section-img">
+      <img src="{{ section.settings.feature | image_url: width: 800 }}" alt="Grandparent"></div>
+    <div class="featured-section">
+      <div class="heart"><img src="assets\heart.png" alt="Small heart"></div>
+      <h3 class="featured-heading">{{ section.settings.headerText }}</h3>
+      <p class="featured-text">{{ section.settings.text }}</p>
+      <button>Shop Now</button>
+    </div>
   </div>
 </div>
 
