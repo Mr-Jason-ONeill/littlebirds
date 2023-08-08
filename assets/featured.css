@@ -1,29 +1,32 @@
 @media screen and (max-width: 768px) {
-    .featured-container {
-        margin-left: 0;
-        margin-right: 0;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-  
   }
 
 /* -------------------------------------- */
 .featured-container {
-    padding-top: 8.94rem;
+    padding-bottom: calc(55%*9/16);
+    margin-bottom: 3.81rem;
+    margin-left: 20%;
+    width: 75%;
+    height: 0;
+    overflow: hidden;
+    position: relative;
 }
 
 .featured-section-wrapper {
-    max-width: 900px;
-    margin: auto;
-    padding-bottom: 4rem;
+    position: absolute;
+    display: flex;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 .featured-section-img {
-        height: 0;
-        padding-bottom: 40%;
-}
+    width: 100%;
+    height: 200px;
+} 
 
 .featured-section {
     background-color: transparent;

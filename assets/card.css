@@ -1,12 +1,4 @@
 @media screen and (max-width: 768px) {
-  .card-container,
-  .max-width-container {
-    margin-left: 0;
-    margin-right: 0;
-    display: flex;
-    flex-wrap: wrap;
-}
-
 
 }
 
@@ -16,15 +8,13 @@
   height: 30.36613rem;
   padding-top: 8.94rem;
   padding-bottom: 8.94rem;
+  margin-bottom: 25%;
  /*  position: absolute; */
 }
 
 .card-wrapper {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  /* position: relative; */
+  padding-left: 3rem;
 }
 
 .card-logo {
@@ -69,7 +59,7 @@
     position: relative;
   }
   
-.max-width-grid {
+.max-width-wrapper {
     display: grid;
     flex-direction: column;
     max-width: 100%;
