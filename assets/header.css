@@ -34,7 +34,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 24px 95px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo {
@@ -48,10 +53,14 @@
     padding-left: 5rem;
 }
 
-.button-container {
+.icon-container {
         display: flex;
-        align-items: center;
-        justify-content: space-between;
+}
+
+.cart-icon,
+.email-icon,
+.user-icon {
+    padding: 1rem;
 }
 
 .navbar {
@@ -65,7 +74,7 @@
   .nav-item {
     text-align: center;
     font-family: Lato, sans-serif;
-    font-size: 20px;
+    font-size: 80%;
     font-weight: 700;
     line-height: 1.4;
     letter-spacing: 1px;
@@ -80,5 +89,5 @@ a {
 
 .main-btn {
     align-items: center;
-    margin-left: 60px;
+    margin-left: 3.75rem;
 }
