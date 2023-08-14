@@ -4,12 +4,8 @@
 
 /* ------------------------------------------ */
 .card-container {
-  max-width: 800px;
-  padding-top: 8.94rem;
-  padding-bottom: 8.94rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin-bottom: 25%;
+  max-width: 1000px;
+  padding: 2.69rem 1rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -21,7 +17,7 @@
 .card-logo {
   color:#262262;
   font-family: Rockwell;
-  font-size: 36px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: 46px;
@@ -48,15 +44,18 @@
 
 .card-text {
   display: flex;
+  flex: 1;
   flex-direction: column;
   align-content: stretch;
   justify-content: center;
   align-items: center;
 } 
 
+
 .max-width-container {
     height: 100%;
     max-width: 100%;
+    padding-bottom: 3rem;
     position: relative;
   }
   
@@ -85,10 +84,29 @@
     justify-content: center;
     padding: 20px;
   }
+
+  .max-text-extra {
+    color: #383838;
+    font-family: Lato;
+    font-size: 1.25rem;
+   font-style: normal;
+    font-weight: 400;
+    -height: 1.875rem;
+    letter-spacing: 0.0625rem;
+  }
+
+  .research {
+    color: #CE202F;
+font-family: Lato;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.875rem; /* 150% */
+letter-spacing: 0.0625rem;
+  }
   
 
 .bulletpoint {
-  list-style:none;
   color: #383838;
   font-family: Lato;
   font-size: 20px;
@@ -100,4 +118,8 @@
 
 .bulletpoint img {
     margin-right: 16px;
+  }
+
+  ul {
+    list-style: none;
   }
