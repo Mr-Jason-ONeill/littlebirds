@@ -5,21 +5,27 @@
     background-color: aliceblue;
     }
 
-    .logo-container {
-        display: flex;
-        flex-direction: row;
+    .menu {
+        display: block;
+    }
+
+    .logo {
+        width: 110px;
+        height: auto;
+    }
+
+    .cart-icon {
+        order: -1;
     }
 
 
     .main-btn,
+    .slogan,
+    .user-icon,
+    .email-icon,
     nav {
         display: none;
     }
-    
-      .logo-container {
-        grid-column: 2;
-        justify-content: center;
-      }
 }
 
 /* -------------------------------------------------- */
@@ -28,6 +34,10 @@
     width: 100%;
     background-color: aliceblue;
     z-index: 2;
+}
+
+.menu {
+    display: none;
 }
 
 .logo-container {

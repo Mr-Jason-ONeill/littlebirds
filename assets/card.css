@@ -122,4 +122,6 @@ letter-spacing: 0.0625rem;
 
   ul {
     list-style: none;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
   }
