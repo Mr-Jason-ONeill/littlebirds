@@ -9,21 +9,32 @@
     align-items: center;
 }
 
+.prop-container {
+    padding-top: 68px;
+    padding-bottom: 68px;
+}
+
 .sponsor {
-    background-color: #00B4CD;
-    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.svg-bg {
+    background-color: #00b4cd;
     border-radius: 50%;
     width: 120px;
     height: 120px;
     display: flex;
+    flex-wrap: wrap;
+    align-content: center;
     justify-content: center;
     align-items: center;
-}
+    flex-direction: column;
 
-.sponsor img.prop {
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 50%;
 }
 
 .prop-message {

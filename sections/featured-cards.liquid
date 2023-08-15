@@ -3,7 +3,16 @@
     <div class="featured-section-img">
       <img src="{{ section.settings.feature | image_url: width: 800 }}" alt="Grandparent"></div>
     <div class="featured-section">
-      <div class="heart"><img src="assets\heart.png" alt="Small heart"></div>
+      <div class="heart">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="18"
+          viewBox="0 0 20 18"
+          fill="none">
+          <path d="M12.5792 17.8063C12.5792 17.8063 -2.52667 11.8705 1.56313 5.37104C5.03784 -0.156228 9.94687 4.61892 9.94687 4.61892C9.94687 4.61892 12.6457 -1.67845 17.963 2.09741C24.2209 6.53134 12.5792 17.8063 12.5792 17.8063Z" fill="#FF616E" />
+        </svg>
+      </div>
       <h3 class="featured-heading">{{ section.settings.headerText }}</h3>
       <p class="featured-text">{{ section.settings.text }}</p>
       <button>Shop Now</button>
