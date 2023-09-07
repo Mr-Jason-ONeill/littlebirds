@@ -4,12 +4,11 @@
   }
 
   .card-text {
-    display: flex;
     order: 1;
-    flex-direction: column;
-    align-content: stretch;
-    justify-content: center;
-    align-items: center;
+  }
+
+  .card-img {
+    order: 2;
   }
 
 }
@@ -23,7 +22,7 @@
 }
 
 .card-wrapper {
-  display: grid;
+  display: flex;
 }
 
 .card-logo {
