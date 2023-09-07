@@ -1,21 +1,22 @@
 @media screen and (max-width: 768px) {
   .hero-container {
     padding-top: 0;
-    display: flex;
-    flex-wrap: wrap;
+   /*  display: flex;
+    flex-wrap: wrap; */
+
   }
   
   .hero-info {
-    order: 1;
+    order: 2;
     flex: 1;
     text-align: center;
     background: linear-gradient(180deg, #F1F1F2 3.13%, rgba(241, 241, 242, 0.62) 15.63%, rgba(241, 241, 242, 0.00) 29.69%);
   }
 
   .hero-image {
-    order: 2;
-    z-index: 2;
+    order: 1;
     flex: 1;
+    width: 100%;
   }
 
 }
@@ -24,12 +25,10 @@
 .hero-container {
   display: flex;
   flex-direction: column;
-  height: 48.625rem;
 }
 
 .hero-image {
   flex: 1;
-  z-index: -1; 
   position: relative;
 }
 

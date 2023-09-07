@@ -1,4 +1,16 @@
 @media screen and (max-width: 768px) {
+  .card-wrapper {
+    display: grid;
+  }
+
+  .card-text {
+    display: flex;
+    order: 1;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+  }
 
 }
 
@@ -11,7 +23,7 @@
 }
 
 .card-wrapper {
-  display: flex;
+  display: grid;
 }
 
 .card-logo {
