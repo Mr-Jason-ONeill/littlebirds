@@ -1,14 +1,17 @@
 @media screen and (max-width: 768px) {
   .card-wrapper {
     display: grid;
+    padding-left: 23%;
   }
 
   .card-text {
     order: 1;
+    flex: 1;
   }
 
   .card-img {
     order: 2;
+    flex: 1;
   }
 
 }

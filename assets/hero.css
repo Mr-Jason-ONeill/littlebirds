@@ -1,9 +1,11 @@
 @media screen and (max-width: 768px) {
   .hero-container {
     padding-top: 0;
-   /*  display: flex;
-    flex-wrap: wrap; */
+  }
 
+  .hero-wrapper {
+    display: grid;
+    justify-content: center;
   }
   
   .hero-info {
