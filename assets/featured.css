@@ -5,6 +5,11 @@
 }
 /* -------------------------------------- */
 .featured-container {
+  width: 80%;
+  height: 0;
+  }
+
+  .featured-section-wrapper {
     position: relative;
     display: flex;
     max-width: 1000px;
@@ -15,14 +20,11 @@
     justify-content: center;
     align-items: center;
     height: auto;
-  }
-
-  .featured-section-wrapper {
-    position: relative;
+    /* position: relative;
     width: 80%;
     height: 0;
     padding-bottom: 33%;
-    margin-bottom: 15%;
+    margin-bottom: 15%; */
   }
 
   .featured-section-img {

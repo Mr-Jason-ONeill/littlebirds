@@ -15,6 +15,7 @@
   }
 
   .max-width-wrapper {
+    display: flex;
     flex-direction: column;
   }
 
@@ -89,8 +90,7 @@
   }
   
 .max-width-wrapper {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     max-width: 100%;
     grid-template-columns: 1fr 1fr;
   }

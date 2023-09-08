@@ -1,7 +1,6 @@
 @media screen and (max-width: 768px) {
   .hero-container {
     padding-top: 0;
-    flex-direction: column;
   }
 
   .hero-wrapper {
@@ -19,22 +18,12 @@
   .hero-image {
     order: 1;
     flex: 1;
-    max-width: 100%;
+    width: 100%;
   }
 
 }
 
 /* -------------------------------------------- */
-.hero-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.hero-image {
-  flex: 1;
-  position: relative;
-}
-
 .hero-image img {
   width: 100%;
   padding-bottom: 8.94rem;
@@ -42,6 +31,17 @@
   opacity: 0.8799999952316284;
   background: radial-gradient(256.64% 53.44% at 50.00% 50.00%, #FFF 6.76%, rgba(255, 255, 255, 0.00) 100%);
   position: absolute;
+}
+
+
+/* .hero-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-image {
+  flex: 1;
+  position: relative;
 }
 
 .hero-info {
@@ -111,3 +111,4 @@ hr {
     display: inline-block;
 }
 
+*/
