@@ -3,6 +3,7 @@
     position: static;
     width: 100%;
     background-color: aliceblue;
+    height: auto;
     }
 
     .logo-wrapper {
@@ -14,6 +15,7 @@
 
     .menu {
         display: flex;
+        order: 1;
     }
 
     .main-btn,

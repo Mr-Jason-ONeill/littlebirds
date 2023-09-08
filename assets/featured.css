@@ -1,7 +1,8 @@
 @media screen and (max-width: 768px) {
-  
+  .featured-container {
+    flex-direction: column;
   }
-
+}
 /* -------------------------------------- */
 .featured-container {
     position: relative;

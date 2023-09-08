@@ -1,6 +1,7 @@
 @media screen and (max-width: 768px) {
   .hero-container {
     padding-top: 0;
+    flex-direction: column;
   }
 
   .hero-wrapper {
@@ -18,7 +19,7 @@
   .hero-image {
     order: 1;
     flex: 1;
-    width: 100%;
+    max-width: 100%;
   }
 
 }
