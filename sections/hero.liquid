@@ -2,26 +2,21 @@
   assign hero_image = section.settings.hero_image
 %}
 
-<div class="hero-container flex flex-col">
+<div class="hero-container">
   <div class="hero-wrapper">
-    <div class="hero-image flex-1 relative">
+    <div class="hero-image">
       {% if hero_image %}
         {{ hero_image | image_url: width: 1350 | image_tag: preload: true }}
       {% endif %}
     </div>
-
-    <div class="hero-info flex flex-col h-auto pb-28 pt-60 mx-auto w-full justify-center items-center opacity-88 bg-radial-gradient">
-
-      <div class="hero-title text-center font-rockwell text-6xl font-bold leading-14 text-blue-600">Grandma<span class="and text-blue-500 font-rockwell text-6xl font-bold leading-14 inline-block">&</span>Me</div>
-
-      <div class="hero-subtitle text-center font-rockwell text-6xl font-bold leading-14 text-blue-600 font-rockwell text-5xl pb-16">activity kit</div>
-      <hr class="w-48 h-1 border-t-1 border-blue-500 my-6" />
-      <div class="hero-text text-center font-lato text-5xl font-extrabold leading-7 text-blue-800 tracking-wider py-7">Connect with your grandchild in a fun and meaningful way.
+    <div class="hero-info">
+      <div class="hero-title">Grandma<span class="and">&</span>Me</div>
+      <div class="hero-subtitle">activity kit</div>
+      <hr/>
+      <div class="hero-text">Connect with your grandchild in a fun and meaningful way.
       </div>
-
       <button>Get A Kit</button>
-
-      <div class="hero-text text-center font-lato text-5xl font-extrabold leading-7 text-blue-800 tracking-wider py-7">No subscription required!</div>
+      <div class="hero-text">No subscription required!</div>
     </div>
   </div>
 </div>
