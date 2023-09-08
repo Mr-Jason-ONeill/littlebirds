@@ -34,9 +34,14 @@
 /* ------------------------------------------ */
 .card-container {
   max-width: 1000px;
+  display: flex;
   padding: 2.69rem 1rem;
   margin-left: auto;
   margin-right: auto;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .card-wrapper {
