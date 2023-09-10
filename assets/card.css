@@ -32,10 +32,15 @@
 }
 
 /* ------------------------------------------ */
+
+/*
 .card-container {
-  max-width: 1000px;
+  width: 100%;
   display: flex;
   padding: 2.69rem 1rem;
+}
+
+.card-wrapper {
   margin-left: auto;
   margin-right: auto;
   align-content: center;
@@ -44,9 +49,14 @@
   flex-wrap: wrap;
 }
 
-.card-wrapper {
+.card-text {
   display: flex;
-}
+  flex: 1;
+  flex-direction: column;
+  align-content: stretch;
+  justify-content: center;
+  align-items: center;
+} 
 
 .card-logo {
   color:#262262;
@@ -76,15 +86,7 @@
   line-height: 46px;
 }
 
-.card-text {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  align-content: stretch;
-  justify-content: center;
-  align-items: center;
-} 
-
+*/
 
 .max-width-container {
     height: 100%;

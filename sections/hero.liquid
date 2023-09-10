@@ -2,17 +2,17 @@
   assign hero_image = section.settings.hero_image
 %}
 
-<div class="hero-container">
-  <div class="hero-wrapper">
+<div class="hero-container w-full ">
+  <div class="hero-wrapper flex-1 flex-col content-center justify-items-center justify-center">
     <div class="hero-image">
       {% if hero_image %}
         {{ hero_image | image_url: width: 1350 | image_tag: preload: true }}
       {% endif %}
     </div>
-    <div class="hero-info">
+    <div class="hero-info mx-auto flex-1 flex-col flex-wrap h-auto object-cover bg-gradient-to-tl from-white via-transparent to-transparent">
       <div class="hero-title">Grandma<span class="and">&</span>Me</div>
       <div class="hero-subtitle">activity kit</div>
-      <hr/>
+      <hr class=" w-72 h-0.5 mb-6 text-lightBlue border-solid border-o.5" />
       <div class="hero-text">Connect with your grandchild in a fun and meaningful way.
       </div>
       <button>Get A Kit</button>
