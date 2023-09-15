@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./littlebirds/**/*.{liquid}"],
+  content: ["./**/*.liquid"],
   theme: {
     colors: {
       transparent: 'transparent',
