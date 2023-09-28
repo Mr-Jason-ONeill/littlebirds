@@ -8,6 +8,7 @@ module.exports = {
       lightBlue: '#00B4CD',
       aliceBlue: '#f0f8ff',
       fontBlue: '#015A6B',
+      grey: '#383838'
     },
     extend: {
       opacity: {
@@ -15,6 +16,7 @@ module.exports = {
       }
     }
   },
+  
   plugins: [],
 }
 
