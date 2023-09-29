@@ -1,14 +1,14 @@
-<div class="featured-container">
-  <div class="featured-section-wrapper">
-    <div class="featured-section-img">
+<div class="featured-container flex mx-auto flex-col max-w-full h-0 items-center justify-center">
+  <div class="featured-section-wrapper relative mx-auto ">
+    <div class="featured-section-img absolute">
       <img src="{{ section.settings.feature | image_url: width: 800 }}" alt="Grandparent"></div>
-    <div class="featured-section">
+    <div class="featured-section bg-transparent w-full absolute flex items-start flex-col justify-center left-0 top-5">
       <div class="heart">
         {% render 'heart' %}
       </div>
-      <h3 class="featured-heading">{{ section.settings.headerText }}</h3>
-      <p class="featured-text">{{ section.settings.text }}</p>
-      <button>Shop Now</button>
+      <h3 class="featured-heading font-serif font-bold text-blue text-lg leading-9">{{ section.settings.headerText }}</h3>
+      <p class="featured-text font-serif italic font-bold leading-10 text-md tracking-tight">{{ section.settings.text }}</p>
+      <button class="btn-primary mt-4 bg-lightBlue">Shop Now</button>
     </div>
   </div>
 </div>

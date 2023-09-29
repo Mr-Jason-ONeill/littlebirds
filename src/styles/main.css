@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.header {
-  @apply h-8;
-}
 
-@import "./styles/sections/header";
+@layer base {
+  .btn-primary {
+    @apply rounded-lg bg-teal-400 w-40 h-10 flex-shrink-0 flex items-center justify-center text-white text-center font-atten-round-new text-xl font-semibold leading-7 tracking-wider uppercase border-none cursor-pointer
+  }
+}

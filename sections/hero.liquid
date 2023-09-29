@@ -2,24 +2,27 @@
   assign hero_image = section.settings.hero_image
 %}
 
-<div class="hero-container w-full ">
-  <div class="hero-wrapper flex-1 flex-col content-center justify-items-center justify-center">
-    <div class="hero-image object-cover w-full h-full">
+<div class="container mx-auto">
+  <div class="wrapper relative items-center justify-center">
+    <div class="hero-image">
       {% if hero_image %}
         {{ hero_image | image_url: width: 1800 | image_tag: preload: true }}
       {% endif %}
     </div>
-    <div class="hero-info mx-auto flex-1 flex-col flex-wrap h-auto object-cover bg-gradient-to-tl from-white via-transparent to-transparent">
-      <div class="hero-title font-rockwell justify-center text-fontBlue leading-10 not-italic font-bold text-7xl">Grandma<span class="and">&</span>Me</div>
+    <div class="hero-info absolute top-0 w-full h-full z-10 bg-transparent inset-0 flex flex-col items-center justify-center text-center">
+      <div class="heading text-fontBlue not-italic font-bold text-7xl leading-10">Grandma
+        <span class="and text-lightBlue not-italic font-bold text-7xl leading-10">&</span>
+        Me</div>
       <div class="hero-subtitle">activity kit</div>
-      <hr class=" w-72 h-0.5 mb-6 text-lightBlue border-solid border-o.5" />
-      <div class="hero-text">Connect with your grandchild in a fun and meaningful way.
-      </div>
-      <button>Get the Kit</button>
-      <div class="hero-text">No subscription required!</div>
+      <hr class="w-72 h-0.5 my-6 text-lightBlue border-solid border-0.55" />
+      <div class="hero-text">Connect with your grandchild in a fun and meaningful way.</div>
+      <button class="mt-4 bg-lightBlue">Get the Kit</button>
+      <div class="hero-text mt-2">No subscription required!</div>
     </div>
   </div>
 </div>
+
+
 
 {% schema %}
   {
