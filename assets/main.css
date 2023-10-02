@@ -16,6 +16,10 @@ body {
     align-items: center;
 }
 
+.btn-primary {
+    color: #FFF;
+}
+
 button {
     border-radius: 8px;
     background: #00B4CD;

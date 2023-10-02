@@ -33,7 +33,6 @@
 
 /* ------------------------------------------ */
 
-/*
 .card-container {
   width: 100%;
   display: flex;
@@ -86,25 +85,23 @@
   line-height: 46px;
 }
 
-*/
+/* ------------------------------------------------------ */
 
 .max-width-container {
     height: 100%;
-    max-width: 100%;
+    width: 100%;
     padding-bottom: 3rem;
-    position: relative;
   }
   
 .max-width-wrapper {
     display: grid;
-    flex-direction: column;
-    max-width: 100%;
     grid-template-columns: 1fr 1fr;
   }
 
 .max-width-img {
     display: flex;
     justify-content: center;
+    height: auto;
   }
   
 .max-width-img img {
@@ -118,7 +115,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px;
   }
 
   .max-text-extra {
@@ -127,18 +123,18 @@
     font-size: 1.25rem;
    font-style: normal;
     font-weight: 400;
-    -height: 1.875rem;
+    height: 1.875rem;
     letter-spacing: 0.0625rem;
   }
 
   .research {
-    color: #CE202F;
-font-family: Lato;
-font-size: 1.25rem;
-font-style: normal;
-font-weight: 700;
-line-height: 1.875rem; /* 150% */
-letter-spacing: 0.0625rem;
+  color: #CE202F;
+  font-family: Lato;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.875rem; /* 150% */
+  letter-spacing: 0.0625rem;
   }
   
 
@@ -151,6 +147,7 @@ letter-spacing: 0.0625rem;
   line-height: 40px;
   letter-spacing: 1px;
   }
+  
 
 .bulletpoint img {
     margin-right: 16px;
@@ -161,3 +158,4 @@ letter-spacing: 0.0625rem;
     padding-bottom: 2rem;
     padding-top: 2rem;
   }
+

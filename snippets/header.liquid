@@ -1,6 +1,6 @@
 <header>
-  <div id="header z-99 flex flex-col">
-    <div class="logo-container fixed w-full">
+  <div id="header fixed z-99 flex flex-col">
+    <div class="logo-container z-99 fixed w-full">
       <div class="logo-wrapper flex flex-row px-20 py-6 items-center bg-aliceBlue">
         <div class="logo flex-1">
           <svg
@@ -94,10 +94,10 @@
           <button class="btn-primary bg-lightBlue rounded-md flex-1 flex-nowrap">Shop Now</button>
         </div>
       </div>
-      <nav class="flex-grow flex bg-blue justify-center items-end md:hidden sm:hidden">
+      <nav class="navbar flex-grow flex bg-blue justify-center items-end">
         <ul class="navbar flex justify-center space-x-2">
           {% for link in linklists.main-menu.links -%}
-            <li class="nav-item px-20">{{ link.title | link_to: link.url }}</li>
+            <li class="nav-item">{{ link.title | link_to: link.url }}</li>
           {%- endfor %}
         </ul>
       </nav>

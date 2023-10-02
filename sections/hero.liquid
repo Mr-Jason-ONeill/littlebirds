@@ -2,8 +2,8 @@
   assign hero_image = section.settings.hero_image
 %}
 
-<div class="container mx-auto">
-  <div class="wrapper relative items-center justify-center">
+<div class="hero-container">
+  <div class="hero-wrapper relative items-center justify-center">
     <div class="hero-image">
       {% if hero_image %}
         {{ hero_image | image_url: width: 1800 | image_tag: preload: true }}
@@ -16,7 +16,7 @@
       <div class="hero-subtitle">activity kit</div>
       <hr class="w-72 h-0.5 my-6 text-lightBlue border-solid border-0.55" />
       <div class="hero-text">Connect with your grandchild in a fun and meaningful way.</div>
-      <button class="mt-4 bg-lightBlue">Get the Kit</button>
+      <button class="btn-primary mt-4 bg-lightBlue">Get the Kit</button>
       <div class="hero-text mt-2">No subscription required!</div>
     </div>
   </div>

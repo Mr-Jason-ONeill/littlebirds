@@ -58,12 +58,15 @@
 
 /* -------------------------------------------------- */
 #header {
-    position: fixed;
+    z-index: 99;
     width: 100%;
     background-color: #f0f8ff;
-    z-index: 2;
 }
 
+.logo-container {
+    z-index: 99;
+    position: fixed;
+}
 
 .logo-wrapper {
     display: flex;
@@ -89,7 +92,7 @@
 
 .slogan {
     display: flex;
-    padding-left: 5rem;
+    padding-left: 2.5rem;
 }
 
 .icon-container {
@@ -112,6 +115,7 @@
   
   .nav-item {
     text-align: center;
+    color: #fff;
     font-family: Lato, sans-serif;
     font-size: 80%;
     font-weight: 700;
