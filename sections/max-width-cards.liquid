@@ -3,25 +3,24 @@
     <div class="max-width-img">
       <img src="{{ section.settings.maxWidthCards | image_url }}" alt="Grandparent">
     </div>
-    <div class="max-width-text">
-      <div class="heart">
-        {% render 'hearts' %}
-      </div>
-      <h3 class="max-heading">{{ section.settings.header }}</h3>
-      <ul>
-        <li class="bulletpoint">
-          {% render 'bulletpointsvg' %} Develop your grandchild’s literacy and social-emotional skills
-        </li>
-        <li class="bulletpoint">
-          {% render 'bulletpointsvg' %}
-          Encourage the lost art of conversation
-        </li>
-        <li class="bulletpoint">
-          {% render 'bulletpointsvg' %}
-          Strengthen intergenerational connections
-        </li>
-      </ul>
-      <div>
+    <div class="bulletpoint-container">
+      <div class="bulletpoint-text">
+        <div class="heart">
+          {% render 'hearts' %}
+        </div>
+        <h3 class="max-heading">{{ section.settings.header }}</h3>
+        <ul class="bulletpoint">
+          <!-- Need to fix why it keeps putting bulletpoint above li -->
+          <li class="point">
+            Develop your grandchild’s literacy and social-emotional skills
+          </li>
+          <li class="point">
+            Encourage the lost art of conversation
+          </li>
+          <li class="point">
+            Strengthen intergenerational connections
+          </li>
+        </ul>
         {% render 'plus' %}
       </div>
       <div class="max-text-extra">

@@ -114,11 +114,6 @@
   line-height: 46px;
 }
 
-.max-width-text {
-  padding-left: 1rem;
-  padding-top: 1rem;
-}
-
 .max-text-extra {
   color: #383838;
   font-family: Lato;
@@ -140,6 +135,19 @@
 }
 
 .bulletpoint {
+  list-style: none;
+  padding: 2rem 0 2rem 1rem;
+}
+.bulletpoint .point::before {
+  content: url('assets/bulletpointsvg.svg');
+}
+
+.bulletpoint-text {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.point {
   color: #383838;
   font-family: Lato;
   font-size: 20px;
@@ -147,15 +155,5 @@
   font-weight: 400;
   line-height: 40px;
   letter-spacing: 1px;
-}
-
-.bulletpoint img {
-  margin-right: 1rem;
-}
-
-ul {
-  list-style: none;
-  padding-bottom: 2rem;
-  padding-top: 2rem;
 }
 

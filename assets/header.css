@@ -58,24 +58,28 @@
 
 /* -------------------------------------------------- */
 #header {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
     z-index: 99;
+    background-color: #fff;
     width: 100%;
-    background-color: #f0f8ff;
 }
 
 .logo-container {
     z-index: 99;
-    position: fixed;
+    max-width: 100%;
 }
 
 .logo-wrapper {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 1rem;
+    padding-right: 3rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -84,25 +88,27 @@
     display: none;
 }
 
-.logo {
+.logo,
+.slogan,
+.icon-container {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.slogan {
-    display: flex;
-    padding-left: 2.5rem;
-}
-
-.icon-container {
-        display: flex;
 }
 
 .cart-icon,
 .email-icon,
 .user-icon {
     padding: 1rem;
+}
+
+.header-btn {
+    max-width: 30%;
+    text-transform: uppercase;
+    font-family: Atten Round New;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 800;
 }
 
 .navbar {
