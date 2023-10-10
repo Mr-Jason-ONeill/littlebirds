@@ -42,7 +42,13 @@
 }
 
 .hero-image img {
-  padding-bottom: 8.94rem;
+  width: 100%;
+}
+
+.hero-btn {
+  text-transform: uppercase;
+  background-color: #00B4CD;
+  opacity: 1;
 }
 
 .hero-info {
@@ -56,8 +62,7 @@
   width: 100%;
   justify-content: center;
   align-items: center;
-  opacity: .88;
-  background: radial-gradient(256.64% 53.44% at 50% 50%,#FFF 6.76%,rgba(255,255,255,0) 100%);
+  background: radial-gradient(256.64% 53.44% at 50% 50%,#FFF 6.76%,rgba(100, 54, 54, 0) 100%);
   align-content: center;
 }
 
@@ -71,7 +76,9 @@
   line-height: 75px;
   color: #015A6B;
   display: block;
+  line-height: 93.75%;
 }
+
 
 hr {
   width: 18.75rem;
@@ -83,7 +90,8 @@ hr {
 
 .hero-subtitle {
   font-size: 65px;
-  padding-bottom: 65px;
+  padding-bottom: 32px;
+  padding-top: 32px;
 }
 
 .hero-text {
