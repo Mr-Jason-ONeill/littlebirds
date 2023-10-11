@@ -80,7 +80,10 @@
         "testimonial3": "<p>“It was really fun creating the silliest recipe card together. I was really impressed with my granddaughter’s creativity!”<br\/><\/p>",
         "author1": "Lauren O. mother of Indiana and Logan",
         "author2": "Tiffany, mother of two",
-        "author3": "Nona Mullen, grandmother of Stella and Jack"
+        "author3": "Nona Mullen, grandmother of Stella and Jack",
+        "testimage1": "shopify:\/\/shop_images\/happy.jpg",
+        "testimage2": "shopify:\/\/shop_images\/laughing.jpg",
+        "testimage3": "shopify:\/\/shop_images\/smiling.jpg"
       }
     }
   },

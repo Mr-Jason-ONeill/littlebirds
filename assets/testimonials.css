@@ -2,9 +2,10 @@
     width: 100%;
     display: grid;
     flex-direction: column;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
     padding-left: 4rem;
     padding-right: 4rem;
+    background-color: #F1F1F2;
 }
 
 .test-title {
@@ -12,6 +13,12 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    align-items: center;
+}
+
+.test-header-container {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -27,39 +34,69 @@
     color: #262262;
     text-align: center;
     font-family: Rockwell;
-    font-size: 30px;
+    font-size: 2.4rem;
     font-style: normal;
     font-weight: 700;
     line-height: 46px;
-    padding-bottom: 10rem;
 }
 
 .hearts {
     text-align: center;
 }
 
+.test-image {
+    width: 80%;
+    max-width: 80%;
+    border-radius: 8px;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.test-image img {
+    border-radius: 8px;
+}
+
+.left-arrow,
+.right-arrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-arrow {
+    align-items: flex-end;
+}
+
 .test-comment {
+    max-width: 80%;
+    padding-top: 1rem;
     color: #383838;
     text-align: center;
-    font-size: 18px;
+    font-family: 'Lato';
+    font-size: 1rem;
     font-style: italic;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 1.8rem;
     letter-spacing: 0.9px;
 }
 
 .test-author {
+    padding-top: 2rem;
     color: #383838;
-    font-size: 18px;
+    font-family: 'Lato';
+    font-size: 1.1rem;
     font-style: normal;
     font-weight: 900;
-    line-height: 30px;
+    line-height: 2rem;
     letter-spacing: 0.9px;
     text-align: center;
 }
 
 .test-quotes,
 .test-rating {
+    padding-top: 1rem;
     text-align: center;
-    margin-bottom: 32px;
+    padding-bottom: 2rem;
 }

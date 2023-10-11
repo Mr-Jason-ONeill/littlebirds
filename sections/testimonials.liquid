@@ -2,12 +2,21 @@
   <div class="hearts">
     {% render 'hearts' %}
   </div>
+  <div class="test-header-container">
   <h3 class="test-header">Love for Little Bridges</h3>
   <hr class="line" />
+  </div>
 </div>
 <div class="test-container">
+  <div class="left-arrow">
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="25" viewBox="0 0 14 25" fill="none">
+  <path d="M0.503708 11.5043L11.064 0.944258C11.7358 0.272167 12.825 0.272167 13.4964 0.944258C14.1679 1.61575 14.1679 2.70485 13.4964 3.37629L4.15213 12.7203L13.4961 22.0639C14.1676 22.7357 14.1676 23.8247 13.4961 24.4962C12.8246 25.1679 11.7355 25.1679 11.0638 24.4962L0.503435 13.936C0.16769 13.6001 6.38472e-06 13.1603 6.622e-06 12.7203C6.85939e-06 12.2801 0.168017 11.84 0.503708 11.5043Z" fill="#262262"/>
+</svg>
+  </div>
   <div class="test-wrapper">
-    <div class="test-image"></div>
+    <div class="test-image">
+      <img src="{{ section.settings.testimage1 |  image_url: width: 800 }}" alt="Happy Family">
+    </div>
     <div class="test-quotes">
       {% render 'quotes' %}
     </div>
@@ -18,7 +27,9 @@
     <div class="test-author">{{ section.settings.author1 }}</div>
   </div>
   <div class="test-wrapper">
-    <div class="test-image"></div>
+    <div class="test-image"> 
+      <img src="{{ section.settings.testimage2 |  image_url: width: 800 }}" alt="Happy Family">
+    </div>
     <div class="test-quotes">
       {% render 'quotes' %}
     </div>
@@ -29,7 +40,9 @@
     <div class="test-author">{{ section.settings.author2 }}</div>
   </div>
   <div class="test-wrapper">
-    <div class="test-image"></div>
+    <div class="test-image">
+      <img src="{{ section.settings.testimage3 |  image_url: width: 800 }}" alt="Happy Family">
+    </div>
     <div class="test-quotes">
       {% render 'quotes' %}
     </div>
@@ -38,6 +51,12 @@
     </div>
     <div class="test-comment">{{ section.settings.testimonial3 }}</div>
     <div class="test-author">{{ section.settings.author3 }}</div>
+  </div>
+  <div class="right-arrow">
+    <svg width="15" height="25" viewBox="0 0 15 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.5305 13.4957L2.97015 24.0557C2.29839 24.7278 1.20924 24.7278 0.537799 24.0557C-0.133693 23.3842 -0.133693 22.2952 0.537799 21.6237L9.88206 12.2797L0.538071 2.93607C-0.133422 2.2643 -0.133422 1.17532 0.538071 0.503823C1.20956 -0.167941 2.29866 -0.167941 2.97042 0.503823L13.5308 11.064C13.8665 11.3999 14.0342 11.8397 14.0342 12.2797C14.0342 12.7199 13.8662 13.16 13.5305 13.4957Z" fill="#262262"/>
+</svg>
+
   </div>
 </div>
 
@@ -75,6 +94,18 @@
         "type": "text",
         "id": "author3",
         "label": "Author for Testimonial 3"
+      }, {
+        "type": "image_picker",
+        "id": "testimage1",
+        "label": "Image for Testimonial"
+      },  {
+        "type": "image_picker",
+        "id": "testimage2",
+        "label": "Image for Testimonial"
+      }, {
+        "type": "image_picker",
+        "id": "testimage3",
+        "label": "Image for Testimonial"
       }
     ]
   }
