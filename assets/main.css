@@ -39,3 +39,7 @@ button {
     border: none;
     cursor: pointer;
 }
+
+.plus {
+    padding-bottom: 1rem;
+}

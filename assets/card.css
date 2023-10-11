@@ -111,16 +111,16 @@
 
 .max-width-wrapper {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
 }
 
-.max-width-img {
-  width: 100%;
+.bulletpoint-container {
+  padding: 1.6rem;
 }
 
 .max-width-img img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .max-heading {
@@ -152,15 +152,11 @@
   letter-spacing: 0.0625rem;
 }
 
-.bulletpoint {
-  list-style: none;
+.bulletpoint-section {
   padding: 2rem 0 2rem 1rem;
 }
-.bulletpoint .point::before {
-  content: url('assets/bulletpointsvg.svg');
-}
 
-.bulletpoint-text {
+.bulletpoint-title {
   padding-left: 1rem;
   padding-top: 1rem;
 }
@@ -173,5 +169,10 @@
   font-weight: 400;
   line-height: 40px;
   letter-spacing: 1px;
+}
+
+.point img {
+  display: inline;
+  padding-right: 0.5rem;
 }
 

@@ -1,26 +1,29 @@
 <div class="max-width-container">
   <div class="max-width-wrapper">
     <div class="max-width-img">
-      <img src="{{ section.settings.maxWidthCards | image_url }}" alt="Grandparent">
+      <img src="{{ section.settings.maxWidthCards |  image_url: width: 900 }}" alt="Grandparent">
     </div>
     <div class="bulletpoint-container">
-      <div class="bulletpoint-text">
+      <div class="bulletpoint-title">
         <div class="heart">
           {% render 'hearts' %}
         </div>
         <h3 class="max-heading">{{ section.settings.header }}</h3>
-        <ul class="bulletpoint">
-          <!-- Need to fix why it keeps putting bulletpoint above li -->
-          <li class="point">
+        <hr class="line" />
+        <div class="bulletpoint-section">
+          <div class="point">
+            <img class="bulletpoint" src="assets\bulletpointsvg.svg" alt="Heart Shaped Bulletpoint">
             Develop your grandchild’s literacy and social-emotional skills
-          </li>
-          <li class="point">
-            Encourage the lost art of conversation
-          </li>
-          <li class="point">
+          </div>
+          <div class="point">
+            <img class="bulletpoint" src="assets\bulletpointsvg.svg" alt="Heart Shaped Bulletpoint">
+             Encourage the lost art of conversation
+          </div>
+          <div class="point">
+            <img class="bulletpoint" src="assets\bulletpointsvg.svg" alt="Heart Shaped Bulletpoint">
             Strengthen intergenerational connections
-          </li>
-        </ul>
+          </div>
+        </div>
         {% render 'plus' %}
       </div>
       <div class="max-text-extra">
