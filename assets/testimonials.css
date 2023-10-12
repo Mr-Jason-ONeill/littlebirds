@@ -19,6 +19,7 @@
 .test-header-container {
     display: flex;
     flex-direction: column;
+    justify-items: center;
     align-items: center;
 }
 
@@ -98,6 +99,7 @@
     padding-bottom: 2rem;
     padding-right: 2rem;
 }
+
 
 .test-comment,
 .test-author,
