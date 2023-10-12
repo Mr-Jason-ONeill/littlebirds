@@ -146,3 +146,14 @@
     padding-right: 1rem;
 
   }
+
+/* ---------------------- Hover Effects ------- */
+
+.legal:hover {
+    cursor: pointer;
+}
+
+.facebook-icon:hover,
+.instagram-icon:hover {
+    cursor: pointer;
+}

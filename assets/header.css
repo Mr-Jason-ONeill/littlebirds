@@ -140,3 +140,12 @@ a {
     align-items: center;
     margin-left: 3.75rem;
 }
+
+
+/* ------------------------------------ Hover effects */
+
+.cart-icon:hover,
+.email-icon:hover,
+.user-icon:hover {
+    cursor: pointer;
+}

@@ -23,7 +23,6 @@
     },
     "featured2": {
       "type": "featured-cards",
-      "disabled": true,
       "settings": {
         "feature": "shopify:\/\/shop_images\/apron.jpg",
         "headerText": "<p>Craft Keepsakes<\/p>",
@@ -32,7 +31,6 @@
     },
     "featured3": {
       "type": "featured-cards",
-      "disabled": true,
       "settings": {
         "feature": "shopify:\/\/shop_images\/cooking.jpg",
         "headerText": "<p>Share the Stories<\/p>",
