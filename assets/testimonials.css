@@ -23,11 +23,9 @@
 }
 
 .test-wrapper {
-    display: flex;
+    display: block;
     flex-direction: column;
     padding-bottom: 5rem;
-    align-items: center;
-    justify-content: center;
 }
 
 .test-header {
@@ -97,9 +95,20 @@
 .test-quotes,
 .test-rating {
     padding-top: 1rem;
-    text-align: center;
     padding-bottom: 2rem;
+    padding-right: 2rem;
 }
+
+.test-comment,
+.test-author,
+.test-quotes,
+.test-rating {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
 
 /* ------------------- Hover Effects ---*/
 
