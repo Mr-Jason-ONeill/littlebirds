@@ -15,7 +15,6 @@
     },
     "featured": {
       "type": "featured-cards",
-      "disabled": true,
       "settings": {
         "feature": "shopify:\/\/shop_images\/grandparent.jpg",
         "headerText": "<p>Read Together<\/p>",

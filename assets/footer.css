@@ -40,6 +40,7 @@
     align-content: center;
     flex-direction: column;
     flex-wrap: wrap;
+    background-color: #311986;
 }
 
 .footer-links {
@@ -62,7 +63,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 45px;
+    margin-top: 2.8rem;
 }
 
 .subheading {
