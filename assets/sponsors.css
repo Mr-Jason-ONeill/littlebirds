@@ -41,10 +41,11 @@
 
 .prop-message {
     color: #FFF;
+    padding-top: 1rem;
     text-align: center;
     font-family: Rockwell;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 28px;
+    line-height: 1.8rem;
 }
