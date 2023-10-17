@@ -2,26 +2,36 @@
 
 /* ------------------------------------ */
 .sponsor-container {
-    background-color: #262262;
-    align-items: center;
+    max-width: 1536px;
+    
 }
 
 .prop-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    position: relative;
+    width: 100vw;
+    display: flex;
+    background-color: #262262;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .prop-wrapper {
-    padding-top: 68px;
-    padding-bottom: 68px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .sponsor {
     display: flex;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    gap: 2rem;
     justify-content: center;
     align-items: center;
     align-content: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 
@@ -36,7 +46,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
 
+.heart-bg {
+    position: absolute;
+    left: 0;
 }
 
 .prop-message {

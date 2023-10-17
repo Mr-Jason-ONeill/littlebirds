@@ -3,13 +3,13 @@
 %}
 
 <div class="hero-container">
-  <div class="hero-wrapper relative items-center justify-center">
+  <div class="hero-wrapper">
     <div class="hero-image">
       {% if hero_image %}
         {{ hero_image | image_url: width: 1800 | image_tag: preload: true }}
       {% endif %}
     </div>
-    <div class="hero-info absolute top-0 w-full h-full z-10 inset-0 flex flex-col items-center justify-center text-center">
+    <div class="hero-info">
       <div class="hero-title text-fontBlue not-italic font-bold text-7xl leading-10">Grandma
         <span class="and text-lightBlue not-italic font-bold text-7xl leading-10">&</span>
         Me</div>

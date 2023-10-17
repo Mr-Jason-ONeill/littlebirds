@@ -31,6 +31,7 @@
     },
     "featured3": {
       "type": "featured-cards",
+      "disabled": true,
       "settings": {
         "feature": "shopify:\/\/shop_images\/cooking.jpg",
         "headerText": "<p>Share the Stories<\/p>",
