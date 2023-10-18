@@ -64,3 +64,8 @@
     font-weight: 700;
     line-height: 1.8rem;
 }
+
+.bg-wrapper {
+    bottom: 0;
+    right: 0;
+}

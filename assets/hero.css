@@ -41,8 +41,7 @@
 }
 
 .hero-image img {
-  height: 100vh;
-  top: 0;
+    height: 85vh;
 }
 
 .hero-info {
@@ -54,7 +53,7 @@
   top: 0;
   right: 0;
   width: 100vw;
-  background: radial-gradient(256.64% 53.44% at 50% 50%,#FFF 6.76%,rgba(100, 54, 54, 0) 100%);
+  background: radial-gradient(ellipse at center top, #FFF 6.76%, rgba(100, 54, 54, 0) 100%);
   align-content: center;
   flex-wrap: wrap;
 }
