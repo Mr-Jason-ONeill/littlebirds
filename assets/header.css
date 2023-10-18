@@ -58,12 +58,13 @@
 
 /* -------------------------------------------------- */
 #header {
-    position: static;
+    position: fixed;
     display: flex;
     flex-direction: column;
-    /* z-index: 99; */
     background-color: #fff;
+    width: 100%;
     max-width: 1580px;
+    z-index: 99;
 }
 
 .logo-container {
