@@ -8,13 +8,13 @@
 
 .prop-container {
     position: relative;
-    width: 100vw;
+    width: 100%;
     display: flex;
     background-color: #262262;
     align-content: center;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
 }
 
@@ -42,7 +42,7 @@
     width: 120px;
     height: 120px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
