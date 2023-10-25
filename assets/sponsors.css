@@ -49,9 +49,8 @@
     flex-direction: column;
 }
 
-.heart-bg {
-    position: absolute;
-    left: 0;
+.blue-heart-bg-right {
+    transform: scaleX(-1);
 }
 
 .prop-message {
