@@ -1,5 +1,23 @@
+@media screen and (max-width: 768px) {
 
+.prop-container {
+width: 100%;
+display: flex;
+background-color: #262262;
+align-content: center;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+flex-direction: column;
+    }
 
+.bg-wrapper {
+z-index: -2;
+position: absolute;
+visibility: hidden;
+    }
+
+}
 /* ------------------------------------ */
 .sponsor-container {
     max-width: 1536px;

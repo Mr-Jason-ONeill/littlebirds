@@ -1,45 +1,44 @@
-/*
-<div class="hamburger">
-<svg
-  class="menu flex-1 hidden"
-  xmlns="http://www.w3.org/2000/svg"
-  width="20"
-  height="20"
-  viewBox="0 0 20 20"
-  fill="none">
-  <g clip-path="url(#clip0_449_50969)">
-    <path d="M18.0645 0.967773H1.93548C0.870968 0.967773 0 1.83874 0 2.90326C0 3.96777 0.870968 4.83874 1.93548 4.83874H18.0645C19.129 4.83874 20 3.96777 20 2.90326C20 1.83874 19.129 0.967773 18.0645 0.967773Z" fill="#262262" />
-    <path d="M18.0645 8.06445H1.93548C0.870968 8.06445 0 8.93542 0 9.99994C0 11.0645 0.870968 11.9354 1.93548 11.9354H18.0645C19.129 11.9354 20 11.0645 20 9.99994C20 8.93542 19.129 8.06445 18.0645 8.06445Z" fill="#262262" />
-    <path d="M18.0645 15.1614H1.93548C0.870968 15.1614 0 16.0323 0 17.0969C0 18.1614 0.870968 19.0323 1.93548 19.0323H18.0645C19.129 19.0323 20 18.1614 20 17.0969C20 16.0323 19.129 15.1614 18.0645 15.1614Z" fill="#262262" />
-  </g>
-  <defs>
-    <clipPath id="clip0_449_50969">
-      <rect
-        width="20"
-        height="20"
-        fill="white" />
-    </clipPath>
-  </defs>
-</svg>
-</div>
-*/
-
-
-
-
 @media screen and (max-width: 768px) {
     #header {
-    position: static;
-    width: 100%;
-    background-color: aliceblue;
-    height: auto;
+        position: static;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        z-index: 99;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .discount {
+        background-color: #262262;
+        display: flex;
+        justify-content: center;
+        padding-right: 7.5rem;
+        padding-bottom: 1rem;
+        flex-wrap: wrap;
+        max-width: 768px;
+        width: 768px;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        margin-right: auto;
+    }
+
+    .logo-container {
+        margin-left: auto;
     }
 
     .logo-wrapper {
         display: flex;
+        flex-direction: row;
+        justify-content: space-around;
         align-items: center;
-        justify-content: center;
-        width: 100%;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-left: 3rem;
+        margin-left: auto;
     }
 
     .menu {
@@ -47,11 +46,12 @@
         order: 1;
     }
 
-    .main-btn,
     .user-icon,
     .email-icon,
+    .slogan,
+    .header-btn,
     nav {
-        display: none;
+        visibility: hidden;
     }
     
 }
@@ -104,7 +104,7 @@
     border-radius: 8px;
     background: #00B4CD;
     width: 8rem;
-    margin-left: -9px;
+    margin-left: -1rem;
     text-transform: uppercase;
     height: 1.5rem;
 }

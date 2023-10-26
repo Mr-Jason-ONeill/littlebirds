@@ -1,7 +1,11 @@
 @media screen and (max-width: 768px) {
   .card-wrapper {
-    display: grid;
-    padding-left: 23%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
   }
 
   .card-text {
@@ -15,19 +19,17 @@
   }
 
   .max-width-wrapper {
-    display: grid;
-  }
-
-  .max-width-img {
-    order: 1;
-  }
-
-  .max-width-text {
-    order: 2;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
     justify-content: center;
-    padding: 20px;
-  }
+    align-items: center;
+}
+
+.card-logo {
+  padding-left: 3rem;
+}
 
 }
 
