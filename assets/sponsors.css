@@ -1,14 +1,14 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px)  {
 
 .prop-container {
-width: 100%;
-display: flex;
-background-color: #262262;
-align-content: center;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-flex-direction: column;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #262262;
+    align-content: center;
+    justify-content: center;
     }
 
 .bg-wrapper {
@@ -31,9 +31,6 @@ visibility: hidden;
     background-color: #262262;
     align-content: center;
     justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
 }
 
 .prop-wrapper {

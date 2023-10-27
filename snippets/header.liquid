@@ -18,7 +18,7 @@
     </div>
     <div class="logo-container">
       <div class="logo-wrapper">
-        <div class="logo flex-1">
+        <div class="logo">
           <svg
             width="140"
             height="83"
@@ -52,7 +52,7 @@
             </defs>
           </svg>
         </div>
-        <div class="slogan flex-1">
+        <div class="slogan">
           <svg
             width="342"
             height="35"
@@ -63,8 +63,8 @@
             <path d="M62.4961 31.76C62.4961 32.88 63.0561 33.52 64.0561 33.52C64.8161 33.52 65.6561 33.4 65.6561 32.52C65.6561 31.4 64.9361 30.56 63.8561 30.56C63.3761 30.56 62.4961 31.24 62.4961 31.76ZM219.723 31.76C219.723 32.88 220.283 33.52 221.283 33.52C222.043 33.52 222.883 33.4 222.883 32.52C222.883 31.4 222.163 30.56 221.083 30.56C220.603 30.56 219.723 31.24 219.723 31.76ZM338.535 31.76C338.535 32.88 339.095 33.52 340.095 33.52C340.855 33.52 341.695 33.4 341.695 32.52C341.695 31.4 340.975 30.56 339.895 30.56C339.415 30.56 338.535 31.24 338.535 31.76Z" fill="#CE202F" />
           </svg>
         </div>
-        <div class="icon-container flex flex-1">
-          <div class="cart-icon flex space-x-2">
+        <div class="icon-container">
+          <div class="cart-icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
@@ -76,7 +76,7 @@
               <path d="M8.47853 17.7056C6.75968 17.7056 5.36133 19.104 5.36133 20.8228C5.36133 22.5416 6.75972 23.94 8.47853 23.94C10.1973 23.94 11.5957 22.5416 11.5957 20.8228C11.5957 19.104 10.1973 17.7056 8.47853 17.7056ZM8.47853 22.0697C7.79088 22.0697 7.23165 21.5104 7.23165 20.8228C7.23165 20.1351 7.79088 19.5759 8.47853 19.5759C9.16618 19.5759 9.72542 20.1351 9.72542 20.8228C9.72542 21.5104 9.16618 22.0697 8.47853 22.0697Z" fill="#262262" />
             </svg>
           </div>
-          <div class="user-icon justify-center flex space-x-2">
+          <div class="user-icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
@@ -97,7 +97,7 @@
               </defs>
             </svg>
           </div>
-          <div class="email-icon justify-center flex space-x-2">
+          <div class="email-icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
@@ -110,7 +110,7 @@
           <button class="header-btn btn-primary bg-lightBlue rounded-md flex-1 flex-nowrap">Buy Now</button>
         </div>
       </div>
-      <nav class="navbar flex-grow flex bg-blue justify-center items-end">
+      <nav class="navbar">
         <ul class="navbar flex justify-center space-x-2">
           {% for link in linklists.main-menu.links -%}
             <li class="nav-item">{{ link.title | link_to: link.url }}</li>

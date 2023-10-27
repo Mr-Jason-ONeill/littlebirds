@@ -1,23 +1,5 @@
-@media screen and (max-width: 768px) {
-  .card-wrapper {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .card-text {
-    order: 1;
-    flex: 1;
-  }
-
-  .card-img {
-    order: 2;
-    flex: 1;
-  }
-
+@media only screen and (min-width: 600px) and (max-width: 1000px)   {
+  .card-wrapper,
   .max-width-wrapper {
     display: flex;
     flex-direction: column;
@@ -25,7 +7,8 @@
     align-content: center;
     justify-content: center;
     align-items: center;
-}
+    width: 100%;
+  }
 
 .card-logo {
   padding-left: 3rem;
@@ -38,11 +21,12 @@
 .card-container {
   max-width: 1580px;
   display: flex;
+  flex-direction: column;
   padding: 2.69rem 9rem;
 }
 
 .card-wrapper {
-  width: 100vw;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   align-content: center;
@@ -110,8 +94,9 @@
 }
 
 .max-width-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+ /* display: grid;
+  grid-template-columns: 1fr 1fr; */
 }
 
 .bulletpoint-container {
