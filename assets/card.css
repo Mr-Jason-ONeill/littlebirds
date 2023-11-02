@@ -88,6 +88,26 @@
   margin-bottom: 1.5rem;
 }
 
+.card-btn {
+  border-radius: 8px;
+  background: #00B4CD;
+  width: 10rem;
+  height: 2.6rem;
+  flex-shrink: 0;
+  align-items: center;
+  color:#FFF;
+  text-align: center;
+  font-family: Atten Round New;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 28px;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
 /* ------------------------------------------------------ */
 .max-width-container {
   width: 100%;

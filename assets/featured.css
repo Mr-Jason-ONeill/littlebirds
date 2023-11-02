@@ -82,6 +82,10 @@
   text-transform: uppercase;
   border-radius: 8px;
   background: #00B4CD;
+  width: 10rem;
+  height: 2.6rem;
+  flex-shrink: 0;
+  cursor: pointer;
 }
 
 .heart,
