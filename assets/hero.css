@@ -37,21 +37,28 @@
 /* -------------------------------------------- */
 
 .hero-container {
-  position: relative;
   height: auto;
-  max-width: 1580px;
- /* padding-top: 11rem; */
+  width: 100%;
 }
 
 .hero-wrapper {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
+  /* position: relative; */
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.hero-image {
+  position: relative;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .hero-image img {
-    height: 85vh;
+  max-height: 100vh;
+  width: 100%;
+  object-fit: cover;
 }
 
 .hero-info {
@@ -60,7 +67,8 @@
   flex-direction: column;
   position: absolute;
   align-items: center;
-  top: 0;
+  top: 10%;
+  transform: translateY(50%);
   width: 100%;
   background: radial-gradient(ellipse at center top, #FFF 6.76%, rgba(100, 54, 54, 0) 100%);
   align-content: center;

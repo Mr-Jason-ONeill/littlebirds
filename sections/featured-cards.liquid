@@ -1,5 +1,8 @@
 <div class="featured-container">
-  <div class="featured-section-wrapper" style="background-image: url('{{ section.settings.feature | image_url: width: 1200 }}');">
+  <div class="featured-section-wrapper">
+  <div class="featured-image">
+    <img src="{{ section.settings.feature | image_url: width: 800}}" alt="Featured card Image">
+  </div>
     <div class="featured-section">
       <div class="heart">
         {% render 'heart' %}

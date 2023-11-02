@@ -19,10 +19,10 @@
 /* ------------------------------------------ */
 
 .card-container {
-  max-width: 1580px;
   display: flex;
   flex-direction: column;
-  padding: 2.69rem 9rem;
+  padding-top: 2.69rem;
+  padding-bottom: 2.69rem;
 }
 
 .card-wrapper {
@@ -95,16 +95,19 @@
 
 .max-width-wrapper {
   display: flex;
- /* display: grid;
-  grid-template-columns: 1fr 1fr; */
+  width: 100%;
 }
 
 .bulletpoint-container {
+  width: 50%;
   padding: 1.6rem;
 }
 
+.max-width-img {
+  width: 50%;
+}
+
 .max-width-img img {
-  width: 100%;
   height: 100%;
 }
 

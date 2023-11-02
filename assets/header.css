@@ -58,7 +58,6 @@
     flex-direction: column;
     background-color: #fff;
     width: 100%;
-    max-width: 1580px;
     z-index: 99;
 }
 
@@ -106,13 +105,12 @@
 
 .logo-container {
     z-index: 99;
-    max-width: 100%;
 }
 
 .logo-wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;

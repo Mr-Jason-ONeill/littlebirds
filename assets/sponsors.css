@@ -19,17 +19,12 @@ visibility: hidden;
 
 }
 /* ------------------------------------ */
-.sponsor-container {
-    max-width: 1536px;
-    
-}
 
 .prop-container {
     position: relative;
     width: 100%;
     display: flex;
     background-color: #262262;
-    align-content: center;
     justify-content: center;
 }
 
@@ -64,8 +59,16 @@ visibility: hidden;
     flex-direction: column;
 }
 
+.blue-heart-bg-left {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
 .blue-heart-bg-right {
     transform: scaleX(-1);
+    position: absolute;
+    right: 0;
 }
 
 .prop-message {

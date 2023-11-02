@@ -31,13 +31,10 @@
 /* ----------------------------------------- */
 .test-container {
     background-color: #F1F1F2;
-    max-width: 1580px;
 }
 
 
 .ratings-container {
-        /* display: grid;
-    grid-template-columns: 1fr 2fr 2fr 2fr 1fr; */
     display: flex;
     flex-direction: row;
     padding-left: 4rem;
