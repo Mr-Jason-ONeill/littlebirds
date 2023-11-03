@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px) and (max-width: 1000px)   {
+@media only screen and (min-width: 600px) and (max-width: 1100px)   {
   .card-wrapper,
   .max-width-wrapper {
     display: flex;
@@ -9,6 +9,20 @@
     align-items: center;
     width: 100%;
   }
+
+  .max-width-img {
+    width: 100%;
+}
+
+  .max-width-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.bulletpoint-container {
+  width: 100%;
+  padding: 1.6rem;
+}
 
 .card-logo {
   padding-left: 3rem;
