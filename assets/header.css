@@ -193,6 +193,13 @@ a {
 }
 
 
+.cart-thumbnail {
+    border: solid 2rem #262262;
+    background-color: #00B4CD;
+    color: #FFF;
+    display: none;
+}
+
 /* ------------------------------------ Hover effects */
 
 .cart-icon:hover,
